@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		379E66B11CC7D31E00FA6D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 379E66B01CC7D31E00FA6D39 /* main.m */; };
+		379E66B41CC7D31E00FA6D39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 379E66B31CC7D31E00FA6D39 /* AppDelegate.m */; };
+		379E66B71CC7D31E00FA6D39 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379E66B61CC7D31E00FA6D39 /* MasterViewController.m */; };
+		379E66BA1CC7D31E00FA6D39 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379E66B91CC7D31E00FA6D39 /* DetailViewController.m */; };
+		379E66BD1CC7D31E00FA6D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379E66BB1CC7D31E00FA6D39 /* Main.storyboard */; };
+		379E66BF1CC7D31E00FA6D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379E66BE1CC7D31E00FA6D39 /* Assets.xcassets */; };
+		379E66C21CC7D31E00FA6D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379E66C01CC7D31E00FA6D39 /* LaunchScreen.storyboard */; };
+		379E66CD1CC7D31E00FA6D39 /* AMPopoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 379E66CC1CC7D31E00FA6D39 /* AMPopoverTests.m */; };
+		379E66D81CC7D31E00FA6D39 /* AMPopoverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 379E66D71CC7D31E00FA6D39 /* AMPopoverUITests.m */; };
+		379E66EA1CC7D34A00FA6D39 /* WYPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379E66E71CC7D34A00FA6D39 /* WYPopoverController.m */; };
+		379E66EB1CC7D34A00FA6D39 /* WYStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 379E66E91CC7D34A00FA6D39 /* WYStoryboardPopoverSegue.m */; };
+		379E66ED1CC7D36B00FA6D39 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379E66EC1CC7D36B00FA6D39 /* QuartzCore.framework */; };
+		379E66F01CC7D60B00FA6D39 /* WYAnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379E66EF1CC7D60B00FA6D39 /* WYAnotherViewController.m */; };
+		379E66F41CC7DF1800FA6D39 /* WYSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379E66F31CC7DF1800FA6D39 /* WYSettingsViewController.m */; };
+		379E66FA1CC7E8B200FA6D39 /* PremiumContainerPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379E66F91CC7E8B200FA6D39 /* PremiumContainerPageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		379E66C91CC7D31E00FA6D39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379E66A41CC7D31E00FA6D39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 379E66AB1CC7D31E00FA6D39;
+			remoteInfo = AMPopover;
+		};
+		379E66D41CC7D31E00FA6D39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379E66A41CC7D31E00FA6D39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 379E66AB1CC7D31E00FA6D39;
+			remoteInfo = AMPopover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		379E66AC1CC7D31E00FA6D39 /* AMPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		379E66B01CC7D31E00FA6D39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		379E66B21CC7D31E00FA6D39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		379E66B31CC7D31E00FA6D39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		379E66B51CC7D31E00FA6D39 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		379E66B61CC7D31E00FA6D39 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		379E66B81CC7D31E00FA6D39 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		379E66B91CC7D31E00FA6D39 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		379E66BC1CC7D31E00FA6D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		379E66BE1CC7D31E00FA6D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		379E66C11CC7D31E00FA6D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		379E66C31CC7D31E00FA6D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379E66C81CC7D31E00FA6D39 /* AMPopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMPopoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		379E66CC1CC7D31E00FA6D39 /* AMPopoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMPopoverTests.m; sourceTree = "<group>"; };
+		379E66CE1CC7D31E00FA6D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379E66D31CC7D31E00FA6D39 /* AMPopoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMPopoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		379E66D71CC7D31E00FA6D39 /* AMPopoverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMPopoverUITests.m; sourceTree = "<group>"; };
+		379E66D91CC7D31E00FA6D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379E66E61CC7D34A00FA6D39 /* WYPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPopoverController.h; sourceTree = "<group>"; };
+		379E66E71CC7D34A00FA6D39 /* WYPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopoverController.m; sourceTree = "<group>"; };
+		379E66E81CC7D34A00FA6D39 /* WYStoryboardPopoverSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYStoryboardPopoverSegue.h; sourceTree = "<group>"; };
+		379E66E91CC7D34A00FA6D39 /* WYStoryboardPopoverSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYStoryboardPopoverSegue.m; sourceTree = "<group>"; };
+		379E66EC1CC7D36B00FA6D39 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		379E66EE1CC7D60B00FA6D39 /* WYAnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAnotherViewController.h; sourceTree = "<group>"; };
+		379E66EF1CC7D60B00FA6D39 /* WYAnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAnotherViewController.m; sourceTree = "<group>"; };
+		379E66F11CC7DB1D00FA6D39 /* WYPopoverDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYPopoverDemo-Prefix.pch"; sourceTree = "<group>"; };
+		379E66F21CC7DF1800FA6D39 /* WYSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYSettingsViewController.h; sourceTree = "<group>"; };
+		379E66F31CC7DF1800FA6D39 /* WYSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYSettingsViewController.m; sourceTree = "<group>"; };
+		379E66F81CC7E8B200FA6D39 /* PremiumContainerPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PremiumContainerPageViewController.h; path = ../PremiumContainerPageViewController.h; sourceTree = "<group>"; };
+		379E66F91CC7E8B200FA6D39 /* PremiumContainerPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PremiumContainerPageViewController.m; path = ../PremiumContainerPageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		379E66A91CC7D31E00FA6D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379E66ED1CC7D36B00FA6D39 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379E66C51CC7D31E00FA6D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379E66D01CC7D31E00FA6D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37584B371CC8CB6C00C604FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				379E66EC1CC7D36B00FA6D39 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37584B381CC8CB8E00C604FC /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				379E66E51CC7D33500FA6D39 /* WYPopoverController */,
+			);
+			name = Vendors;
+			path = AMPopover;
+			sourceTree = "<group>";
+		};
+		379E66A31CC7D31E00FA6D39 = {
+			isa = PBXGroup;
+			children = (
+				379E66AE1CC7D31E00FA6D39 /* AMPopover */,
+				37584B381CC8CB8E00C604FC /* Vendors */,
+				379E66CB1CC7D31E00FA6D39 /* AMPopoverTests */,
+				379E66D61CC7D31E00FA6D39 /* AMPopoverUITests */,
+				37584B371CC8CB6C00C604FC /* Frameworks */,
+				379E66AD1CC7D31E00FA6D39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		379E66AD1CC7D31E00FA6D39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				379E66AC1CC7D31E00FA6D39 /* AMPopover.app */,
+				379E66C81CC7D31E00FA6D39 /* AMPopoverTests.xctest */,
+				379E66D31CC7D31E00FA6D39 /* AMPopoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		379E66AE1CC7D31E00FA6D39 /* AMPopover */ = {
+			isa = PBXGroup;
+			children = (
+				379E66B21CC7D31E00FA6D39 /* AppDelegate.h */,
+				379E66B31CC7D31E00FA6D39 /* AppDelegate.m */,
+				379E66B51CC7D31E00FA6D39 /* MasterViewController.h */,
+				379E66B61CC7D31E00FA6D39 /* MasterViewController.m */,
+				379E66B81CC7D31E00FA6D39 /* DetailViewController.h */,
+				379E66B91CC7D31E00FA6D39 /* DetailViewController.m */,
+				379E66F21CC7DF1800FA6D39 /* WYSettingsViewController.h */,
+				379E66F31CC7DF1800FA6D39 /* WYSettingsViewController.m */,
+				379E66EE1CC7D60B00FA6D39 /* WYAnotherViewController.h */,
+				379E66EF1CC7D60B00FA6D39 /* WYAnotherViewController.m */,
+				379E66F81CC7E8B200FA6D39 /* PremiumContainerPageViewController.h */,
+				379E66F91CC7E8B200FA6D39 /* PremiumContainerPageViewController.m */,
+				379E66BB1CC7D31E00FA6D39 /* Main.storyboard */,
+				379E66BE1CC7D31E00FA6D39 /* Assets.xcassets */,
+				379E66C01CC7D31E00FA6D39 /* LaunchScreen.storyboard */,
+				379E66C31CC7D31E00FA6D39 /* Info.plist */,
+				379E66AF1CC7D31E00FA6D39 /* Supporting Files */,
+			);
+			path = AMPopover;
+			sourceTree = "<group>";
+		};
+		379E66AF1CC7D31E00FA6D39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				379E66F11CC7DB1D00FA6D39 /* WYPopoverDemo-Prefix.pch */,
+				379E66B01CC7D31E00FA6D39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		379E66CB1CC7D31E00FA6D39 /* AMPopoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				379E66CC1CC7D31E00FA6D39 /* AMPopoverTests.m */,
+				379E66CE1CC7D31E00FA6D39 /* Info.plist */,
+			);
+			path = AMPopoverTests;
+			sourceTree = "<group>";
+		};
+		379E66D61CC7D31E00FA6D39 /* AMPopoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				379E66D71CC7D31E00FA6D39 /* AMPopoverUITests.m */,
+				379E66D91CC7D31E00FA6D39 /* Info.plist */,
+			);
+			path = AMPopoverUITests;
+			sourceTree = "<group>";
+		};
+		379E66E51CC7D33500FA6D39 /* WYPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				379E66E61CC7D34A00FA6D39 /* WYPopoverController.h */,
+				379E66E71CC7D34A00FA6D39 /* WYPopoverController.m */,
+				379E66E81CC7D34A00FA6D39 /* WYStoryboardPopoverSegue.h */,
+				379E66E91CC7D34A00FA6D39 /* WYStoryboardPopoverSegue.m */,
+			);
+			name = WYPopoverController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		379E66AB1CC7D31E00FA6D39 /* AMPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379E66DC1CC7D31E00FA6D39 /* Build configuration list for PBXNativeTarget "AMPopover" */;
+			buildPhases = (
+				379E66A81CC7D31E00FA6D39 /* Sources */,
+				379E66A91CC7D31E00FA6D39 /* Frameworks */,
+				379E66AA1CC7D31E00FA6D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMPopover;
+			productName = AMPopover;
+			productReference = 379E66AC1CC7D31E00FA6D39 /* AMPopover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		379E66C71CC7D31E00FA6D39 /* AMPopoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379E66DF1CC7D31E00FA6D39 /* Build configuration list for PBXNativeTarget "AMPopoverTests" */;
+			buildPhases = (
+				379E66C41CC7D31E00FA6D39 /* Sources */,
+				379E66C51CC7D31E00FA6D39 /* Frameworks */,
+				379E66C61CC7D31E00FA6D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				379E66CA1CC7D31E00FA6D39 /* PBXTargetDependency */,
+			);
+			name = AMPopoverTests;
+			productName = AMPopoverTests;
+			productReference = 379E66C81CC7D31E00FA6D39 /* AMPopoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		379E66D21CC7D31E00FA6D39 /* AMPopoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379E66E21CC7D31E00FA6D39 /* Build configuration list for PBXNativeTarget "AMPopoverUITests" */;
+			buildPhases = (
+				379E66CF1CC7D31E00FA6D39 /* Sources */,
+				379E66D01CC7D31E00FA6D39 /* Frameworks */,
+				379E66D11CC7D31E00FA6D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				379E66D51CC7D31E00FA6D39 /* PBXTargetDependency */,
+			);
+			name = AMPopoverUITests;
+			productName = AMPopoverUITests;
+			productReference = 379E66D31CC7D31E00FA6D39 /* AMPopoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		379E66A41CC7D31E00FA6D39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mejor Contigo S.L.";
+				TargetAttributes = {
+					379E66AB1CC7D31E00FA6D39 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					379E66C71CC7D31E00FA6D39 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 379E66AB1CC7D31E00FA6D39;
+					};
+					379E66D21CC7D31E00FA6D39 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 379E66AB1CC7D31E00FA6D39;
+					};
+				};
+			};
+			buildConfigurationList = 379E66A71CC7D31E00FA6D39 /* Build configuration list for PBXProject "AMPopover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 379E66A31CC7D31E00FA6D39;
+			productRefGroup = 379E66AD1CC7D31E00FA6D39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				379E66AB1CC7D31E00FA6D39 /* AMPopover */,
+				379E66C71CC7D31E00FA6D39 /* AMPopoverTests */,
+				379E66D21CC7D31E00FA6D39 /* AMPopoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		379E66AA1CC7D31E00FA6D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379E66C21CC7D31E00FA6D39 /* LaunchScreen.storyboard in Resources */,
+				379E66BF1CC7D31E00FA6D39 /* Assets.xcassets in Resources */,
+				379E66BD1CC7D31E00FA6D39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379E66C61CC7D31E00FA6D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379E66D11CC7D31E00FA6D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		379E66A81CC7D31E00FA6D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379E66F01CC7D60B00FA6D39 /* WYAnotherViewController.m in Sources */,
+				379E66B41CC7D31E00FA6D39 /* AppDelegate.m in Sources */,
+				379E66B71CC7D31E00FA6D39 /* MasterViewController.m in Sources */,
+				379E66EB1CC7D34A00FA6D39 /* WYStoryboardPopoverSegue.m in Sources */,
+				379E66B11CC7D31E00FA6D39 /* main.m in Sources */,
+				379E66F41CC7DF1800FA6D39 /* WYSettingsViewController.m in Sources */,
+				379E66FA1CC7E8B200FA6D39 /* PremiumContainerPageViewController.m in Sources */,
+				379E66EA1CC7D34A00FA6D39 /* WYPopoverController.m in Sources */,
+				379E66BA1CC7D31E00FA6D39 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379E66C41CC7D31E00FA6D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379E66CD1CC7D31E00FA6D39 /* AMPopoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379E66CF1CC7D31E00FA6D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379E66D81CC7D31E00FA6D39 /* AMPopoverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		379E66CA1CC7D31E00FA6D39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 379E66AB1CC7D31E00FA6D39 /* AMPopover */;
+			targetProxy = 379E66C91CC7D31E00FA6D39 /* PBXContainerItemProxy */;
+		};
+		379E66D51CC7D31E00FA6D39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 379E66AB1CC7D31E00FA6D39 /* AMPopover */;
+			targetProxy = 379E66D41CC7D31E00FA6D39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		379E66BB1CC7D31E00FA6D39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379E66BC1CC7D31E00FA6D39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		379E66C01CC7D31E00FA6D39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379E66C11CC7D31E00FA6D39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		379E66DA1CC7D31E00FA6D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		379E66DB1CC7D31E00FA6D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		379E66DD1CC7D31E00FA6D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AMPopover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcontigo.AMPopover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		379E66DE1CC7D31E00FA6D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AMPopover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcontigo.AMPopover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		379E66E01CC7D31E00FA6D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AMPopoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcontigo.AMPopoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMPopover.app/AMPopover";
+			};
+			name = Debug;
+		};
+		379E66E11CC7D31E00FA6D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AMPopoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcontigo.AMPopoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMPopover.app/AMPopover";
+			};
+			name = Release;
+		};
+		379E66E31CC7D31E00FA6D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AMPopoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcontigo.AMPopoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AMPopover;
+			};
+			name = Debug;
+		};
+		379E66E41CC7D31E00FA6D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AMPopoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcontigo.AMPopoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AMPopover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		379E66A71CC7D31E00FA6D39 /* Build configuration list for PBXProject "AMPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379E66DA1CC7D31E00FA6D39 /* Debug */,
+				379E66DB1CC7D31E00FA6D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379E66DC1CC7D31E00FA6D39 /* Build configuration list for PBXNativeTarget "AMPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379E66DD1CC7D31E00FA6D39 /* Debug */,
+				379E66DE1CC7D31E00FA6D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379E66DF1CC7D31E00FA6D39 /* Build configuration list for PBXNativeTarget "AMPopoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379E66E01CC7D31E00FA6D39 /* Debug */,
+				379E66E11CC7D31E00FA6D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379E66E21CC7D31E00FA6D39 /* Build configuration list for PBXNativeTarget "AMPopoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379E66E31CC7D31E00FA6D39 /* Debug */,
+				379E66E41CC7D31E00FA6D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 379E66A41CC7D31E00FA6D39 /* Project object */;
+}
