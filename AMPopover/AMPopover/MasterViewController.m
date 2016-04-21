@@ -24,9 +24,8 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
-#import "WYAnotherViewController.h"
 #import "WYStoryboardPopoverSegue.h"
-#import "WYSettingsViewController.h"
+#import "PopoverViewController.h"
 
 
 @interface MasterViewController (){
@@ -47,6 +46,7 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -139,7 +139,7 @@
         NSLog(@"Popover no nil");
         UIView *btn = (UIView *)sender;
         
-        WYSettingsViewController *settingsViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"WYSettingsViewController"];
+        PopoverViewController *settingsViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PopoverViewController"];
         settingsViewController.preferredContentSize = CGSizeMake(320, 280);
         
         //Establecer shadowImage transparente

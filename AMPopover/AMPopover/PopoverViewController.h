@@ -1,5 +1,5 @@
 //
-//  WYSettingsViewController.h
+//  PopoverViewController.h
 //
 //  AMPopover is available under the MIT license.
 //
@@ -24,6 +24,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WYSettingsViewController : UIViewController
+@interface PopoverViewController : UIViewController
 
 @end

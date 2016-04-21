@@ -1,5 +1,5 @@
 //
-//  WYAnotherViewController.h
+//  PopoverViewController.m
 //
 //  AMPopover is available under the MIT license.
 //
@@ -22,12 +22,49 @@
 //OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 //SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import "PopoverViewController.h"
 
-@interface WYAnotherViewController : UIViewController
+@interface PopoverViewController ()
 {
 }
 
-- (IBAction)resizeme:(id)sender;
+@end
+
+@implementation PopoverViewController
+
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    //[self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"WYSettingsTableViewCell"];
+    
+    [self.navigationItem.rightBarButtonItem setTintColor:[UIColor colorWithRed:195./255. green:4./255. blue:94./255. alpha:1.]];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    //NSLog(@"view WILL appear");
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    //NSLog(@"view DID appear");
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    //NSLog(@"view WILL disappear");
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    //NSLog(@"view DID disappear");
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 @end
